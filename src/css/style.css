@@ -6,12 +6,13 @@ body {
     color: #333333;
 }
 
-body .modo-escuro {
+.modo-escuro {
     background-color: #000000;
     color: whitesmoke;
 }
 
 header {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +39,7 @@ header button {
 }
 
 main {
-    background-color: none;
+
     padding: 25px;
 }
 
@@ -55,7 +56,7 @@ main .cartao-pokemon {
     width: 200px;
     height: 350px;
     padding: 15px;
-    gap: 15;
+    gap: none;
     justify-content: none;
     flex-direction: column;
     align-items: center;
@@ -129,6 +130,7 @@ main .descricao {
     max-height: 80px;
     overflow-y: scroll;
 }
+
 
 
 footer p {
